@@ -22,7 +22,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing an expand operation.
     /// </summary>
-    internal sealed class ExpandTermToken : QueryToken
+    public sealed class ExpandTermToken : QueryToken
     {
         /// <summary>
         /// The nav prop path for this ExpandTerm

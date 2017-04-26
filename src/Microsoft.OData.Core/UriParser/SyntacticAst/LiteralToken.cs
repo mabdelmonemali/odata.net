@@ -20,7 +20,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing a literal value.
     /// </summary>
-    internal sealed class LiteralToken : QueryToken
+    public sealed class LiteralToken : QueryToken
     {
         /// <summary>
         /// The original text value of the literal.

@@ -22,7 +22,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing a select operation.
     /// </summary>
-    internal sealed class SelectToken : QueryToken
+    public sealed class SelectToken : QueryToken
     {
         /// <summary>
         /// The properties according to which to select the results.

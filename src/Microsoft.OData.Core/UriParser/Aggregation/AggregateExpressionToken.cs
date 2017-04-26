@@ -16,7 +16,7 @@ namespace Microsoft.OData.Core.UriParser.Aggregation
     using Microsoft.OData.Core.UriParser.Visitors;
     using Microsoft.OData.Core.UriParser.Syntactic;
 
-    internal sealed class AggregateExpressionToken : QueryToken
+    public sealed class AggregateExpressionToken : QueryToken
     {
         private readonly QueryToken expression;
 

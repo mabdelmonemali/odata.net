@@ -15,7 +15,7 @@ namespace Microsoft.OData.Core.UriParser.Aggregation
     using Microsoft.OData.Core.UriParser.Visitors;
     using Microsoft.OData.Core.UriParser.Syntactic;
 
-    internal sealed class AggregateToken : ApplyTransformationToken
+    public sealed class AggregateToken : ApplyTransformationToken
     {
         private readonly IEnumerable<AggregateExpressionToken> expressions;
 

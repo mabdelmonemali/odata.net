@@ -20,7 +20,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing a query option.
     /// </summary>
-    internal sealed class CustomQueryOptionToken : QueryToken
+    public sealed class CustomQueryOptionToken : QueryToken
     {
         /// <summary>
         /// The name of the query option.

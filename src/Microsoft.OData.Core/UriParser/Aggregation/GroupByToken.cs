@@ -15,7 +15,7 @@ namespace Microsoft.OData.Core.UriParser.Aggregation
     using Microsoft.OData.Core.UriParser.TreeNodeKinds;
     using Microsoft.OData.Core.UriParser.Visitors;
 
-    internal sealed class GroupByToken : ApplyTransformationToken
+    public sealed class GroupByToken : ApplyTransformationToken
     {
         private readonly IEnumerable<EndPathToken> properties;
 

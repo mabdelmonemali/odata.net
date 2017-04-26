@@ -19,7 +19,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing the Any/All Query
     /// </summary>
-    internal abstract class LambdaToken : QueryToken
+    public abstract class LambdaToken : QueryToken
     {
         /// <summary>
         /// The parent token.

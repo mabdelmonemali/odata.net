@@ -13,7 +13,7 @@ namespace Microsoft.OData.Core.UriParser.TreeNodeKinds
     /// <summary>
     /// Enumeration of kinds of query tokens.
     /// </summary>
-    internal enum QueryTokenKind
+    public enum QueryTokenKind
     {
         /// <summary>
         /// The binary operator.

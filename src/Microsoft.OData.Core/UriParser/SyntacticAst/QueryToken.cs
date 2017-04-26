@@ -23,7 +23,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Base class for all lexical tokens of OData query.
     /// </summary>
-    internal abstract class QueryToken : ODataAnnotatable
+    public abstract class QueryToken : ODataAnnotatable
     {
         /// <summary>
         /// Empty list of arguments.

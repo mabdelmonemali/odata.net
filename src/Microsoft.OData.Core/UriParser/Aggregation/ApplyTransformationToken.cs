@@ -15,7 +15,7 @@ namespace Microsoft.OData.Core.UriParser.Aggregation
     /// <summary>
     /// Base class for Applt transformation tokens
     /// </summary>
-    internal abstract class ApplyTransformationToken : QueryToken
+    public abstract class ApplyTransformationToken : QueryToken
     {
     }
 }

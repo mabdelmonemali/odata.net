@@ -22,7 +22,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// Lexical token representing a System token such as $count
     /// </summary>
     /// 
-    internal sealed class SystemToken : PathSegmentToken
+    public sealed class SystemToken : PathSegmentToken
     {
         /// <summary>
         /// The identifier for this SystemToken

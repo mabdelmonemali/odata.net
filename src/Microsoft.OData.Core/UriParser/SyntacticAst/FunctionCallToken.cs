@@ -22,7 +22,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing a function call.
     /// </summary>
-    internal sealed class FunctionCallToken : QueryToken
+    public sealed class FunctionCallToken : QueryToken
     {
         /// <summary>
         /// The name of the function to call.

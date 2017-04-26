@@ -23,7 +23,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// Lexical token representing a segment in a path.
     /// </summary>
     /// 
-    internal abstract class PathSegmentToken : ODataAnnotatable
+    public abstract class PathSegmentToken : ODataAnnotatable
     {
         /// <summary>
         /// the next token in the path

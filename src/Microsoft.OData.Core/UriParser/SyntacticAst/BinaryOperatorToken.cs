@@ -20,7 +20,7 @@ namespace Microsoft.OData.Core.UriParser.Syntactic
     /// <summary>
     /// Lexical token representing a binary operator.
     /// </summary>
-    internal sealed class BinaryOperatorToken : QueryToken
+    public sealed class BinaryOperatorToken : QueryToken
     {
         /// <summary>
         /// The operator represented by this node.
