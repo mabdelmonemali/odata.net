@@ -15,21 +15,34 @@ namespace Microsoft.OData.Core.UriParser.Aggregation
     using Microsoft.OData.Core.UriParser.Visitors;
     using Microsoft.OData.Core.UriParser.Syntactic;
 
+    /// <summary>
+    /// Query token representing an Aggregate token.
+    /// </summary>
     public sealed class AggregateToken : ApplyTransformationToken
     {
         private readonly IEnumerable<AggregateExpressionToken> expressions;
 
+        /// <summary>
+        /// Create an AggregateToken.
+        /// </summary>
+        /// <param name="expressions">The list of AggregateExpressionToken.</param>
         public AggregateToken(IEnumerable<AggregateExpressionToken> expressions)
         {
             ExceptionUtils.CheckArgumentNotNull(expressions, "expressions");
             this.expressions = expressions;
         }
 
+        /// <summary>
+        /// Gets the kind of this token.
+        /// </summary>
         public override QueryTokenKind Kind
         {
             get { return QueryTokenKind.Aggregate; }
         }
 
+        /// <summary>
+        /// Gets the list of AggregateExpressionToken.
+        /// </summary>
         public IEnumerable<AggregateExpressionToken> Expressions
         {
             get

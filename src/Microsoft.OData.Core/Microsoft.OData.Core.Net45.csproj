@@ -577,6 +577,7 @@
     <Compile Include="UriParser\SyntacticAst\PathSegmentToken.cs" />
     <Compile Include="UriParser\SyntacticAst\PathToken.cs" />
     <Compile Include="UriParser\SyntacticAst\QueryToken.cs" />
+    <Compile Include="UriParser\SyntacticAst\QueryTokenKind.cs" />	
     <Compile Include="UriParser\SyntacticAst\RangeVariableToken.cs" />
     <Compile Include="UriParser\SyntacticAst\SelectToken.cs" />
     <Compile Include="UriParser\SyntacticAst\StarToken.cs" />
@@ -586,7 +587,6 @@
     <Compile Include="UriParser\TreeNodeKinds\BinaryOperatorKind.cs" />
     <Compile Include="UriParser\TreeNodeKinds\ExpressionTokenKind.cs" />
     <Compile Include="UriParser\TreeNodeKinds\QueryNodeKind.cs" />
-    <Compile Include="UriParser\TreeNodeKinds\QueryTokenKind.cs" />
     <Compile Include="UriParser\TreeNodeKinds\RequestTargetKind.cs" />
     <Compile Include="UriParser\TreeNodeKinds\UnaryOperatorKind.cs" />
     <Compile Include="UriParser\TypePromotionUtils.cs" />

@@ -8,7 +8,7 @@ using FluentAssertions;
 using Microsoft.OData.Core.UriParser;
 using Microsoft.OData.Core.UriParser.Parsers;
 using Microsoft.OData.Core.UriParser.Semantic;
-using Microsoft.OData.Core.UriParser.TreeNodeKinds;
+using Microsoft.OData.Core.UriParser.Syntactic;
 using Microsoft.OData.Edm.Library;
 using Microsoft.Test.OData.Utils.Metadata;
 using Xunit;

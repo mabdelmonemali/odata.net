@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using FluentAssertions;
 using Microsoft.OData.Core.UriParser.Aggregation;
-using Microsoft.OData.Core.UriParser.TreeNodeKinds;
+using Microsoft.OData.Core.UriParser.Syntactic;
 using Xunit;
 
 namespace Microsoft.OData.Core.Tests.UriParser.Extensions.SyntacticAst
